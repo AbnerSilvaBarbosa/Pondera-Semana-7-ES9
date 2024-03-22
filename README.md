@@ -62,4 +62,3 @@ Teste com planilha de 1.000 usuários:
 
 **Conclusão e recomendações:**
 Como foi possível analisar, o sistema performou um pouco melhor com uma quantidade menor de usuários a serem inseridos no banco, mas ainda assim, o resultado foi muito abaixo do esperado para ambos os casos. Isso ocorreu, porque atualmente o sistema não está serial, ou seja, ele não tem a capacidade de realizar o processo de relação entre o "Customer" e a "Company" ao mesmo tempo que outros usuários estão subindo novas bases de dados. Pensando nisso, algo que melhoraria o resultado seria a implementação de filas, pois ela permite que o processo de criar uma relação seja processada um de cada vez, sendo assim, o sistema processaria apenas uma base de dados por vez.
-# Pondera-Semana-7-ES9
